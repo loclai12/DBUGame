@@ -629,33 +629,21 @@ local FormsList = {
 }
 
 local quests = {{
-    name = "Klirin",
-    nickname = "Klirin",
-    requiredValue = 0,
-    endRange = 45000,
-    planet = "Earth"
-}, {
-    name = "Kid Nohag",
-    nickname = "Kid Nohag",
-    requiredValue = 45001,
-    endRange = 100000,
-    planet = "Earth"
-}, {
     name = "Radish",
     nickname = "Radish",
-    requiredValue = 100001,
-    endRange = 200000,
+    requiredValue = 0,
+    endRange = 150000,
     planet = "Earth"
 }, {
     name = "Mapa",
     nickname = "Mapa",
-    requiredValue = 200001,
-    endRange = 400000,
+    requiredValue = 150001,
+    endRange = 350000,
     planet = "Earth"
 }, {
     name = "Top X Fighter",
     nickname = "X Fighter Master",
-    requiredValue = 400001,
+    requiredValue = 350001,
     endRange = 750000,
     planet = "Earth"
 }, {
