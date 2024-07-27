@@ -629,9 +629,15 @@ local FormsList = {
 }
 
 local quests = {{
+name = "Kid Nohag",
+    nickname = "Kid Nohag",
+    requiredValue = 0,
+    endRange = 100000,
+    planet = "Earth"
+}, {
     name = "Radish",
     nickname = "Radish",
-    requiredValue = 0,
+    requiredValue = 100001,
     endRange = 150000,
     planet = "Earth"
 }, {
