@@ -1417,7 +1417,7 @@ myChar.HumanoidRootPart.CFrame = CFrame.lookAt(myChar.HumanoidRootPart.Position,
                                         repeat
                                             task.wait()
                                             
-                                                    if game.Workspace.Living[targetted].Stats.Ki.Value >= 10 then
+                                                    if game.Workspace.Living[targetted].Stats.Ki.Value >= 1 then
 													repeat
                                                              A_3 = "Blacknwhite27"                                                 																											
 															for _, A_1 in ipairs(attacks2) do
@@ -1448,7 +1448,7 @@ myChar.HumanoidRootPart.CFrame = CFrame.lookAt(myChar.HumanoidRootPart.Position,
                                                   
                                                 until not autoFarmLoopRunning or v.Humanoid.Health <= 0 or
                                                     game.Players.LocalPlayer.Character.Humanoid.Health <= 0 or
-                                                    game.Workspace.Living[targetted].Stats.Ki.Value < 10
+                                                    game.Workspace.Living[targetted].Stats.Ki.Value < 1
                                                     
 
                                             end
